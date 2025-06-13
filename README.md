@@ -33,5 +33,5 @@ Project:To predict the resale price of the car  using python.
  
  ![](https://github.com/Jobinb7/Car_resale_price_prediction/blob/ddebb743035ae3b598711c1b2265dbfe7a43ef0b/log_raw_regression.PNG?raw=true)        
  ![](https://github.com/Jobinb7/Car_resale_price_prediction/blob/91544c03de0075c460e3de9111ae0644b2212b80/linearRegression_raw1.png)       
-  ![](       
+ ![](https://github.com/Jobinb7/Car_resale_price_prediction/blob/9f73c0fa99b6ebbc48c6049d5fb5a60771bf9372/Linear_regression_log_2.png)       
          
