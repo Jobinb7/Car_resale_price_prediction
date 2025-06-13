@@ -38,4 +38,5 @@ Project:To predict the resale price of the car  using python.
   Because of this high training R^2 shows small overfitting only.On average,  model underestimates or overestimates the resale price
   by ₹7.19 lakhs. RMSE = 17.98 lakhs is much higher than MAE, which suggests that there are a few large errors (outliers) that are 
   penalized more by RMSE.
-
+ ![](https://github.com/Jobinb7/Car_resale_price_prediction/blob/df285f65fe439322b94d03a77f38407574ae9e38/Top25_features.png)
+ 
