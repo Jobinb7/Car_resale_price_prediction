@@ -32,6 +32,8 @@ Project:To predict the resale price of the car  using python.
              
          Results:  Using Feature selection, more than 40 features were selected. Out of this, the most  dominant features are the  various car models and makers. More                    than 55 features were not selected, which include car models, makers, extra specifications, etc. Here, initially regression models based on raw                        ex_showroom_price as the target variable  and regression models  based on log of raw ex_showroom_price as target variable. Creating two models was                     due to the very high skewness of ex_showroom_price. But the log regression model makes predictions with higher error than the raw  regression                          model.
           
+
+ 
  ![](https://github.com/Jobinb7/Car_resale_price_prediction/blob/ddebb743035ae3b598711c1b2265dbfe7a43ef0b/log_raw_regression.PNG?raw=true)        
          
          
