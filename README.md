@@ -11,7 +11,7 @@ Project:To predict the resale price of the car  using python.
 
  2)   Cleaning: Initially, the dataset contains 1262 rows and 129 columns, But 48 columns are  dropped  due to the presence of  more than 40 percent of the                 missing values and not relevant to the project. Another 20 columns are also dropped due to the lack of variability.
 
-  3)   Feature engineering: Log transformed the skewed numericl variables like  ex_showroom_price,     displacement, height, length and width.
+  3)   Feature engineering: Log transformed the skewed numerical variables like  ex_showroom_price, displacement, height, length and width.
 
   4)   Preprocessing pipeline:Encoding the categorical variables into numerical format using one-hot encoding and standardize the numerical variable using                    scaling.Here certain string variables like power ,torque  were converted into numerical form.
 
@@ -26,7 +26,7 @@ Project:To predict the resale price of the car  using python.
 
              
  Results: 
- Using Feature selection, more than 40 features were selected. Out of this, the most  dominant features are the  various car models and makers. More  than 55 features  were not selected, which include car models, makers, extra specifications, etc. Here, initially regression models based on raw ex_ showroom_price as the target variable and regression models  based on log of raw_ex_showroom_price as target variable. Creating two models due to    the very high skewness of ex_showroom_price.   But the log regression model makes predictions with higher error than the raw regression model. 
+ Using Feature selection, more than 40 features were selected. Out of this, the most  dominant features are the  various car models and makers. More  than 55 features  were not selected, which include car models, makers, extra specifications, etc. Here, initially regression models based on raw ex_ showroom_price as the target  variable and regression models  based on log of raw_ex_showroom_price as target variable. Creating two models due to    the very high skewness of ex_showroom_price.   But the log regression model makes predictions with higher error than the raw regression model. 
 
           
 
