@@ -36,6 +36,6 @@ Project:To predict the resale price of the car  using python.
           compare to the raw regression model.
           
          ![alt text](https://github.com/Jobinb7/Car_resale_price_prediction/blob/1a1bb0f4f484d008e31ad602bc97b8472332ca8c/log_raw_regression.PNG)
-         ![alt text](
+         ![alt text](https://github.com/Jobinb7/Car_resale_price_prediction/blob/e4f3d80a7c36e99aef742e4314bf7bb183c08fb2/linearRegression_raw1.png)
          ![alt text](
          
