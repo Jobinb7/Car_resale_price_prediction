@@ -35,7 +35,8 @@ Project:To predict the resale price of the car  using python.
           Here intially regression models based on raw ex_showroom_ price  as traget variable  and regression models  based on lograthm of raw ex_showroon _price as            target variable .Creating two models was due to the very high skewness of ex_showroom_price .But lograthmic regression model make prediction with high error
           compare to the raw regression model.
           
-         ![ Alt Text ](https://github.com/Jobinb7/Car_resale_price_prediction/blob/1a1bb0f4f484d008e31ad602bc97b8472332ca8c/log_raw_regression.PNG)
+         ![Alt Text](https://github.com/Jobinb7/Car_resale_price_prediction/blob/1a1bb0f4f484d008e31ad602bc97b8472332ca8c/log_raw_regression.PNG)
+         
          ![  ](https://github.com/Jobinb7/Car_resale_price_prediction/blob/e4f3d80a7c36e99aef742e4314bf7bb183c08fb2/linearRegression_raw1.png)
          ![  ](https://github.com/Jobinb7/Car_resale_price_prediction/blob/60ed18c08e2895febb26fe5296c160e9b2028c29/Linear_regression_log_2.png)
          
