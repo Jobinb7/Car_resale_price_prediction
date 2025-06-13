@@ -1,4 +1,4 @@
-Project:To predict the resale price of the car  using python.
+Project:To predict the resale price of the car  using linear regression
          
  Data :     car dataset(https://www.kaggle.com/datasets/shalwalsingha/cars-ds-final)
  
