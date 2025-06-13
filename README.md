@@ -35,5 +35,7 @@ Project:To predict the resale price of the car  using python.
  ![](https://github.com/Jobinb7/Car_resale_price_prediction/blob/91544c03de0075c460e3de9111ae0644b2212b80/linearRegression_raw1.png)       
         
   Here training R ^2 is higher than the testing R^2 ,But most errors are under 30,000 Rupees .This shows the model generlaize well.
-  Because of this high training R^2 shows small overfitting only.
+  Because of this high training R^2 shows small overfitting only.On average,  model underestimates or overestimates the resale price
+  by ₹7.19 lakhs. RMSE = 17.98 lakhs is much higher than MAE, which suggests that there are a few large errors (outliers) that are 
+  penalized more by RMSE.
 
