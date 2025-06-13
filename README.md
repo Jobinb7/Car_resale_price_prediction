@@ -44,12 +44,12 @@ Project:To predict the resale price of the car  using python.
  Top Positive Influences on Resale Price:
                                   
       
-model_Mulsanne	(₹1.18 Cr )         Bentley Mulsanne  brand value increase resale value to ₹1.18 Cr 
-make_Bentley	(₹1.12 Cr )         Bentley company brand raises resale value significantly.
-make_Ferrari	(₹81.7 L	)          Ferrari  company brand  increased  resale value to  81.7 lakh ₹
-model_Range	(₹80.0 L	)          Generic Range models increase price by ₹80 L approx.
-log_length	(₹42.7 L	)          Longer cars (after log-transform) tends toincrease the price value  ,
-                                      especially premium SUV's and SEDAN models
+Feature	Coefficient (₹)	Interpretation
+model_Mulsanne	₹1.18 Cr	The Bentley Mulsanne model contributes significantly to resale value due to its ultra-luxury status.
+make_Bentley	₹1.12 Cr	Bentley as a brand has a very high brand value, boosting resale price across its models.
+make_Ferrari	₹81.7 Lakh	Ferrari’s brand value leads to strong resale retention.
+model_Range	₹80.0 Lakh	Generic Range Rover models generally hold high resale prices.
+log_length	₹42.7 Lakh	Longer vehicles (SUVs/premium sedans) tend to have higher resale value; this log-transformed feature captures that trend.
 
 Top Negative Influences on Resale Price:
 
