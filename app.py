@@ -24,7 +24,7 @@ log_length = st.number_input("log(Length)", value=6.5)
 log_width = st.number_input("log(Width)", value=5.7)
 log_price = 0  # dummy, not needed for prediction
 make = st.selectbox("Make", ['Maruti', 'Hyundai', 'Honda'], key="make")
-model_name = st.selectbox("Model", ['Swift', 'i20', 'City'], key="model")
+model_name = st.selectbox("Model", ['Nano Genx', 'Redi-Go', 'Kwid','Alto K10'],key="model_name")
 emission_norm = st.selectbox("Emission Norm", ['BS4', 'BS6'], key="emission")
 ventilation_system = st.selectbox("Ventilation System", ['Manual', 'Automatic'], key="ventilation")
 abs_option = st.selectbox("ABS", ['Yes', 'No'], key="abs")
