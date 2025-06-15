@@ -28,7 +28,7 @@ make = st.selectbox("Make", [
     'Skoda', 'Volkswagen', 'Porsche', 'Nissan', 'Mahindra', 'Land Rover Rover',
     'Renault', 'Datsun', 'Bentley', 'Maserati', 'Aston Martin'
 ])
-model = st.selectbox("Model", [
+model_name = st.selectbox("Model", [
     'A3', 'Accord Hybrid', 'Flying Spur', 'Kodiaq', 'Kuv100 Nxt',
     'Linea Classic', 'Monte Carlo', 'NULL', 'Range Velar', 'Redi-Go',
     'Superb Sportline', 'Tuv300 Plus', 'Verito Vibe', 'Avventura', 'Bolt',
@@ -79,7 +79,7 @@ input_dict = {
     'make': [make],
     'fuel_type': [fuel_type],
     'central_locking': [central_locking],
-    'model':[model],
+    'model':[model_name],
     'emission_norm':[emission_norm],
     'ventilation_system':[ventilation_system],
      'abs': [abs_option],
