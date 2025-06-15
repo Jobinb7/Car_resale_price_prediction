@@ -63,6 +63,15 @@ front_brakes = st.selectbox("Front Brakes", ['Disc', 'Drum'], key="brakes")
 fuel_type = st.selectbox("Fuel Type", ['Petrol', 'Diesel', 'Hybrid'], key="fuel_type")
 engine_immobilizer = st.selectbox("Engine Immobilizer", ['Yes', 'No'], key=" engine_immobilizer")
 
+if displacement > 6000:
+    st.warning("⚠️ Displacement is very high — may reduce accuracy.")
+if power > 600:
+    st.warning("⚠️ Power is very high — rare in standard cars.")
+if length > 6000:
+    st.warning("⚠️ Length exceeds typical passenger vehicle range.")
+if city_mileage > 50:
+    st.warning("⚠️ Mileage seems unusually high — double check.")
+
 # Log-transform required features
 log_displacement = np.log1p(displacement)
 log_height = np.log1p(height)
