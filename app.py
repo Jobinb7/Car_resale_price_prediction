@@ -23,11 +23,19 @@ log_height = st.number_input("log(Height)", value=5.4)
 log_length = st.number_input("log(Length)", value=6.5)
 log_width = st.number_input("log(Width)", value=5.7)
 log_price = 0  # dummy, not needed for prediction
-
-# Example: assuming you trained with these categories
 make = st.selectbox("Make", ['Maruti', 'Hyundai', 'Honda'])  # You can update these options
 fuel_type = st.selectbox("Fuel Type", ['Petrol', 'Diesel', 'CNG'])
 central_locking = st.selectbox("Central Locking", ['Yes', 'No'])
+model_name = st.selectbox("Model", ['Nano Genx', 'Redi-Go', 'Kwid','Alto K10'])
+emission_norm = st.selectbox("Emission Norm", ['BS IV', 'BS 6','BS III'])
+ventilation_system = st.selectbox("Ventilation System", ['Yes', 'Manual Air conditioning with cooling and heating','NO'])
+average_fuel_consumption = st.selectbox("Average Fuel Consumption", ['YES', 'NO'])
+child_safety_locks = st.selectbox("Child Safety Locks", ['Yes', 'No'])
+engine_malfunction_light = st.selectbox("Engine Malfunction Light", ['Yes', 'No'])
+front_brakes = st.selectbox("Front Brakes", ['ventilatedDisk', 'Drum','Solid Disc'])
+fuel_type = st.selectbox("Fuel Type", ['Petrol', 'Diesel', 'CNG'])
+engine_immobilizer = st.selectbox("Engine Immobilizer", ['Yes', 'No'])
+
 
 # Create a single-row dataframe
 input_dict = {
@@ -45,10 +53,7 @@ input_dict = {
     'model':[model],
     'emission_norm':[emission_norm],
     'ventilation_system':[ventilation_system],
-    'abs':[abs],
-    'ebd':[ebd],
     'average_fuel_consumption':[average_fuel_consumption],
-    'central_locking':[central_locking],
     'child_safety_locks':[child_safety_locks],
     'engine_malfunction_light':[engine_malfunction_light],
     'front_brakes':[front_brakes],
