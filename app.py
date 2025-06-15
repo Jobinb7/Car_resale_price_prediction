@@ -12,7 +12,7 @@ st.title("Car Resale Price Predictor")
 
 # Input fields
 st.subheader("Enter Car Details:")
-
+log_ex_showroom_price = 0 
 city_mileage = st.number_input("City Mileage (km/l)", value=15.0)
 extended_warranty = st.number_input("Extended Warranty (Years)", value=2.0)
 power = st.number_input("Power (PS)", value=100.0)
@@ -41,6 +41,7 @@ engine_immobilizer = st.selectbox("Engine Immobilizer", ['Yes', 'No'], key="immo
 
 # Create a single-row dataframe
 input_dict = {
+    'log_ex_showroom_price': [log_ex_showroom_price],
     'city_mileage_numeric': [city_mileage],
     'extended_warranty_numeric': [extended_warranty],
     'power_numeric': [power],
@@ -55,6 +56,8 @@ input_dict = {
     'model':[model],
     'emission_norm':[emission_norm],
     'ventilation_system':[ventilation_system],
+     'abs': [abs_option],
+     'ebd': [ebd_option],
     'average_fuel_consumption':[average_fuel_consumption],
     'child_safety_locks':[child_safety_locks],
     'engine_malfunction_light':[engine_malfunction_light],
