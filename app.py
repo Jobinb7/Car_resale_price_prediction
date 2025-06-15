@@ -23,18 +23,20 @@ log_height = st.number_input("log(Height)", value=5.4)
 log_length = st.number_input("log(Length)", value=6.5)
 log_width = st.number_input("log(Width)", value=5.7)
 log_price = 0  # dummy, not needed for prediction
-make = st.selectbox("Make", ['Maruti', 'Hyundai', 'Honda'])  # You can update these options
-fuel_type = st.selectbox("Fuel Type", ['Petrol', 'Diesel', 'CNG'])
-central_locking = st.selectbox("Central Locking", ['Yes', 'No'])
-model_name = st.selectbox("Model", ['Nano Genx', 'Redi-Go', 'Kwid','Alto K10'])
-emission_norm = st.selectbox("Emission Norm", ['BS IV', 'BS 6','BS III'])
-ventilation_system = st.selectbox("Ventilation System", ['Yes', 'Manual Air conditioning with cooling and heating','NO'])
-average_fuel_consumption = st.selectbox("Average Fuel Consumption", ['YES', 'NO'])
-child_safety_locks = st.selectbox("Child Safety Locks", ['Yes', 'No'])
-engine_malfunction_light = st.selectbox("Engine Malfunction Light", ['Yes', 'No'])
-front_brakes = st.selectbox("Front Brakes", ['ventilatedDisk', 'Drum','Solid Disc'])
-fuel_type = st.selectbox("Fuel Type", ['Petrol', 'Diesel', 'CNG'])
-engine_immobilizer = st.selectbox("Engine Immobilizer", ['Yes', 'No'])
+make = st.selectbox("Make", ['Maruti', 'Hyundai', 'Honda'], key="make")
+model_name = st.selectbox("Model", ['Swift', 'i20', 'City'], key="model")
+emission_norm = st.selectbox("Emission Norm", ['BS4', 'BS6'], key="emission")
+ventilation_system = st.selectbox("Ventilation System", ['Manual', 'Automatic'], key="ventilation")
+abs_option = st.selectbox("ABS", ['Yes', 'No'], key="abs")
+ebd_option = st.selectbox("EBD", ['Yes', 'No'], key="ebd")
+average_fuel_consumption = st.selectbox("Average Fuel Consumption", ['Low', 'Moderate', 'High'], key="avg_fuel")
+central_locking = st.selectbox("Central Locking", ['Yes', 'No'], key="central_locking")
+child_safety_locks = st.selectbox("Child Safety Locks", ['Yes', 'No'], key="child_locks")
+engine_malfunction_light = st.selectbox("Engine Malfunction Light", ['Yes', 'No'], key="malfunction")
+front_brakes = st.selectbox("Front Brakes", ['Disc', 'Drum'], key="brakes")
+fuel_type = st.selectbox("Fuel Type", ['Petrol', 'Diesel', 'CNG'], key="fuel_type")
+engine_immobilizer = st.selectbox("Engine Immobilizer", ['Yes', 'No'], key="immobilizer")
+
 
 
 # Create a single-row dataframe
