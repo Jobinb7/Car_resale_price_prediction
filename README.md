@@ -66,3 +66,8 @@ Luxury brands (Bentley, Ferrari, Aston Martin) and their flagship models greatly
 Mass-market brands (Skoda, Ford, Tata) or models that are discontinued or outdated, lower the predicted price.
 
 Technical specs and features, when transformed (log), have a reasonable effect but are less influential than brand/model.
+
+Streamlit App for car resale prediction
+**************************************
+https://carresalepriceprediction-wcpytejonktnaycybexe5l.streamlit.app/
+
