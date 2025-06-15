@@ -67,7 +67,7 @@ Mass-market brands (Skoda, Ford, Tata) or models that are discontinued or outdat
 
 Technical specs and features, when transformed (log), have a reasonable effect but are less influential than brand/model.
 
-Streamlit App for car resale prediction
+Streamlit App for car resale price  prediction
 **************************************
 https://carresalepriceprediction-wcpytejonktnaycybexe5l.streamlit.app/
 
