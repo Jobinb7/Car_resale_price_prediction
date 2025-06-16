@@ -31,7 +31,7 @@ make = st.selectbox("Make", [
 
 model_name = st.selectbox("Model", [
     'A3', 'Accord Hybrid', 'Flying Spur', 'Kodiaq', 'Kuv100 Nxt',
-    'Linea Classic', 'Monte Carlo', 'NULL', 'Range Velar', 'Redi-Go',
+    'Linea Classic', 'Monte Carlo', 'Range Velar', 'Redi-Go',
     'Superb Sportline', 'Tuv300 Plus', 'Verito Vibe', 'Avventura', 'Bolt',
     'Celerio', 'City', 'Duster', 'Dzire', 'Elantra', 'Endeavour', 'Go',
     'Grancabrio', 'Granturismo', 'Jazz', 'Levante', 'Linea', 'Panamera',
@@ -106,7 +106,8 @@ input_data = pd.DataFrame([{
 # Prediction
 if st.button("Predict Resale Price"):
     try:
-        resale_price = model.predict(input_data)[0]
+        predicted_price = model.predict(input_data)[0]
+        predicted_price = max(0, predicted_price)  # Cl
         st.success(f"Estimated Resale Price: ₹ {resale_price:,.0f}")
     except Exception as e:
         st.error(f"Prediction failed: {e}")
