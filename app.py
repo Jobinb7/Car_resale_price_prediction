@@ -38,7 +38,7 @@ model_name = st.selectbox("Model", [
     'Polo', 'Q3', 'Q5', 'Q7', 'Quattroporte', 'Range', 'Rapid', 'Rapide',
     'Rs7', 'Sunny', 'Superb', 'Terrano', 'Tiago', 'Tigor', 'Tuv300',
     'Vento', 'Xuv500', 'Zest'
-],"model")
+],key="model_name")
 
 emission_norm = st.selectbox("Emission Norm", ['BS IV', 'BS 6'],key = "emission_norm")
 
